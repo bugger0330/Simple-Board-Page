@@ -1,0 +1,99 @@
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 800px;
+
+}
+
+th{
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    width: 150px;
+}
+
+td{
+    padding-left: 10px;
+    
+}
+
+
+.title, .username{
+    width: 99%;
+    height: 35px;
+    border: none;
+}
+
+.inputs{
+    width: 99%;
+    height: 35px;
+    border: none;
+    
+}
+
+.td-username{
+    
+}
+
+.check-id{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+.content{
+    width: 98%;
+    height: 300px;
+    font-size: 20px;
+    border: none;
+    resize: none;
+    margin-top: 5px;
+}
+
+.btn-area{
+    margin: 30px;
+
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.img-box{
+    width: 100%;
+}
+
+.img-box img{
+    width: 300px;
+}

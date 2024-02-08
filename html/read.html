@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/write.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="header">
+            <div class="header-menu-box">
+                <div class="menu-box-space">
+                    <span class="menu-1">게시판</span>
+                </div>
+                <div class="menu-box-space">
+                    <span class="menu-1">로그인</span>
+                    <span class="menu-1">회원가입</span>
+                </div>
+            </div>
+        </div>
+        <div class="title-box">
+            <h1>읽기</h1>
+        </div>
+        <table>
+            <tr>
+                <th>제목</th>
+                <td>
+                    <input type="text" class="title" readonly="true">
+                </td>
+            </tr>
+            <tr>
+                <th>작성자</th>
+                <td>
+                    <input type="text" class="username" readonly="true">
+                </td>
+            </tr>
+            <tr>
+                <th>내용</th>
+                <td>
+                    <div>
+                        <div class="img-box"></div>
+                        <pre class="content" readonly="true"></pre>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="btn-area">
+            <button type="button">수정하기</button>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="/js/header.js"></script>
+    <script src="../js/read.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+.main-div{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.board-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.board{
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.board:hover{
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.head div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-1{
+    
+    width: 70px;
+}
+.head-2{
+    
+    width: 100%;
+}
+.head-3{
+    
+    width: 200px;
+}
+.head-4{
+    
+    width: 200px;
+}
+.head-5{
+    
+    width: 100px;
+}
+
+.board-content-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.board-1{
+    width: 70px;
+}
+.board-2{
+    width: 100%;
+    text-align: left;
+}
+.board-3{
+    width: 200px;
+}
+.board-4{
+    width: 200px;
+}
+.board-5{
+    width: 100px;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.num-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left, .right{
+    cursor: pointer;
+}
+
+.num{
+    padding: 5px;
+    margin: 0 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.num:hover{
+    background-color: gray;
+    color: white;
+}
+
+.write-button-box{
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.no-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
